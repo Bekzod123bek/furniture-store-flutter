@@ -527,8 +527,9 @@ class MockProductRepository implements ProductRepository {
     await Future<void>.delayed(delay);
     final q = filter.query.trim().toLowerCase();
     final result = products.where((p) {
-      if (filter.category != null && p.category != filter.category)
+      if (filter.category != null && p.category != filter.category) {
         return false;
+      }
       if (q.isNotEmpty &&
           !p.name.toLowerCase().contains(q) &&
           !p.material.toLowerCase().contains(q) &&
