@@ -8,6 +8,18 @@ Flutter.
 > (nothing leaves the device, passwords are not stored) and no real payment is
 > taken. Photos are illustrative.
 
+## Screenshots
+
+| Onboarding | Home | Product | Cart |
+|---|---|---|---|
+| <img src="docs/screenshots/onboarding.jpg" width="180"> | <img src="docs/screenshots/home.jpg" width="180"> | <img src="docs/screenshots/product.jpg" width="180"> | <img src="docs/screenshots/cart.jpg" width="180"> |
+
+Screenshots were taken on an Android emulator (Pixel 7).
+
+## Design
+
+Warm cream and walnut-brown theme (with a dark mode switch), soft shadows, rounded product cards with sale badges and Hero transitions between the grid and the product page.
+
 ## Features
 
 - **Onboarding** (3 slides, shown on first launch only)
@@ -68,3 +80,7 @@ The app needs an internet connection to load photos.
 ## Credits
 
 Photos: [Unsplash](https://unsplash.com) (Unsplash License).
+
+## Author
+
+Bekzod Abdurahimov, Flutter developer · [GitHub](https://github.com/Bekzod123bek)
