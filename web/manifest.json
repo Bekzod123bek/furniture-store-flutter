@@ -3,7 +3,7 @@
     "short_name": "Furniture",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#F8F5F1",
+    "background_color": "#8B5E3C",
     "theme_color": "#8B5E3C",
     "description": "Furniture shop with AI room design",
     "orientation": "portrait-primary",
