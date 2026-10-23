@@ -1,0 +1,590 @@
+{
+  "@@locale": "en",
+  "appName": "Furniture Store",
+  "commonRetry": "Try again",
+  "commonCouldNotLoad": "Could not load",
+  "commonCancel": "Cancel",
+  "commonClose": "Close",
+  "commonBack": "Back",
+  "commonFree": "Free",
+  "commonTotal": "Total",
+  "commonApply": "Apply",
+  "commonReset": "Reset",
+  "commonUndo": "Undo",
+  "commonRemove": "Remove",
+  "commonIncrease": "Increase",
+  "commonDecrease": "Decrease",
+  "commonHello": "Hello 👋",
+  "commonHelloName": "Hello, {name} 👋",
+  "@commonHelloName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "errorNetwork": "No internet connection. Check it and try again.",
+  "errorServer": "The server is not responding. Try again later.",
+  "errorCache": "Could not read data saved on this device.",
+  "errorNotFound": "Nothing was found.",
+  "errorInvalidCredentials": "Wrong email or password.",
+  "errorUnexpected": "Something went wrong. Try again.",
+  "errorEmptyCart": "Your cart is empty.",
+  "errorIncompleteAddress": "Please fill in the delivery address.",
+  "errorOrderNotCancellable": "This order can no longer be cancelled.",
+  "errorEmailInUse": "This email is already registered. Try signing in.",
+  "errorWeakPassword": "Choose a stronger password (at least 6 characters).",
+  "errorInvalidEmail": "Enter a valid email.",
+  "errorAccountDisabled": "This account is disabled.",
+  "errorTooManyAttempts": "Too many attempts. Wait a few minutes and try again.",
+  "errorSignInAgain": "Please sign in again to do this.",
+  "errorSignedOut": "You are signed out.",
+  "errorPhotoTooLarge": "The photo is too large (over 10 MB).",
+  "errorPhotoAccess": "Camera or photo access is turned off. Allow it in the phone settings.",
+  "errorPhotoUnreadable": "The photo could not be analysed. Try a different one.",
+  "errorNotARoom": "This does not look like the inside of a room. Take a photo of the room you want to furnish.",
+  "errorAnalysisLimit": "The photo analysis limit is reached for now. Try again later.",
+  "errorLocationOff": "Location is turned off. Turn it on and try again.",
+  "errorLocationDenied": "Location access was not allowed.",
+  "errorLocationDeniedForever": "Location access is blocked. Allow it in the phone settings.",
+  "validationRequired": "Required",
+  "validationName": "Enter your name",
+  "validationEmail": "Enter a valid email",
+  "validationPassword": "At least {min} characters",
+  "@validationPassword": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      }
+    }
+  },
+  "validationPhone": "Enter a valid phone number",
+  "onboardingSkip": "Skip",
+  "onboardingNext": "Next",
+  "onboardingStart": "Get started",
+  "onboarding1Title": "Furniture that feels like home",
+  "onboarding1Text": "Hand-picked sofas, chairs and tables from trusted makers.",
+  "onboarding2Title": "Let AI furnish your room",
+  "onboarding2Text": "Take a photo of your room and get a matching set: your style, your colours, the right size.",
+  "onboarding3Title": "Delivered to your door",
+  "onboarding3Text": "Free delivery on orders over {amount}. Mark your entrance on the map.",
+  "@onboarding3Text": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "loginWelcome": "Welcome back",
+  "loginWelcomeText": "Sign in to continue shopping.",
+  "loginCreateTitle": "Create account",
+  "loginCreateText": "Sign up to save favorites and track orders.",
+  "loginSignIn": "Sign in",
+  "loginRegister": "Register",
+  "loginCreateButton": "Create account",
+  "loginFullName": "Full name",
+  "loginEmail": "Email",
+  "loginPassword": "Password",
+  "loginShowPassword": "Show password",
+  "loginHidePassword": "Hide password",
+  "loginForgot": "Forgot password?",
+  "loginEnterEmailFirst": "Enter your email above first",
+  "loginResetSent": "Password reset link sent to {email}",
+  "@loginResetSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "navHome": "Home",
+  "navFavorites": "Saved",
+  "navCart": "Cart",
+  "navProfile": "Profile",
+  "navScan": "AI room",
+  "homeTitle": "Find furniture you love",
+  "homeSearchHint": "Search sofas, oak, lamps…",
+  "homeClearSearch": "Clear search",
+  "homeFilters": "Filters",
+  "homeRoomCardTitle": "Furnish your room from a photo",
+  "homeRoomCardText": "AI picks furniture for your style, colours and size",
+  "homeRoomCardAction": "Try it",
+  "homeLoading": "Loading…",
+  "homePopular": "Popular now",
+  "homeResults": "{count, plural, =0{No results} =1{1 result} other{{count} results}}",
+  "@homeResults": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeSort": "Sort",
+  "homeEmptyCatalog": "No products yet",
+  "homeEmptyCatalogText": "The catalog is empty. Pull down to refresh.",
+  "homeNothingFound": "Nothing found",
+  "homeNothingFoundText": "Try another search word or reset the filters.",
+  "homeResetFilters": "Reset filters",
+  "homeAllCategories": "All",
+  "homeShopNow": "Shop now",
+  "categorySofa": "Sofas",
+  "categoryArmchair": "Armchairs",
+  "categoryChair": "Chairs",
+  "categoryTable": "Tables",
+  "categoryBed": "Beds",
+  "categoryLamp": "Lamps",
+  "categoryStorage": "Storage",
+  "sortPopular": "Popular",
+  "sortNewest": "Newest",
+  "sortPriceAsc": "Price: low to high",
+  "sortPriceDesc": "Price: high to low",
+  "sortRating": "Top rated",
+  "filterTitle": "Filters",
+  "filterPrice": "Price",
+  "filterMaterial": "Material",
+  "filterRating": "Rating",
+  "filterAnyRating": "Any",
+  "filterOnSale": "Only items on sale",
+  "filterShow": "Show results",
+  "productNew": "NEW",
+  "productRatingReviews": "{rating} · {reviews} reviews",
+  "@productRatingReviews": {
+    "placeholders": {
+      "rating": {
+        "type": "String"
+      },
+      "reviews": {
+        "type": "String"
+      }
+    }
+  },
+  "productSave": "Save {percent}%",
+  "@productSave": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "productColour": "Colour: {name}",
+  "@productColour": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "productAbout": "About",
+  "productMaterial": "Material",
+  "productSize": "Size",
+  "productDelivery": "Delivery",
+  "productDeliveryDays": "3–5 days",
+  "productReviews": "Reviews",
+  "productReviewsTotal": "{total} total",
+  "@productReviewsTotal": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "productRelated": "You may also like",
+  "productAdd": "Add · {price}",
+  "@productAdd": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "productAdded": "{quantity} × {name} added to cart",
+  "@productAdded": {
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "productAddToCart": "Add to cart",
+  "productAddFavorite": "Add to favorites",
+  "productRemoveFavorite": "Remove from favorites",
+  "productNotFound": "Product not found",
+  "productNotFoundText": "It may have been removed from the catalog.",
+  "favoritesTitle": "Favorites",
+  "favoritesEmpty": "No favorites yet",
+  "favoritesEmptyText": "Tap the heart on any product to save it here.",
+  "favoritesBrowse": "Browse products",
+  "cartTitle": "Cart",
+  "cartEmpty": "Your cart is empty",
+  "cartEmptyText": "Add something you like and it will appear here.",
+  "cartStartShopping": "Start shopping",
+  "cartCheckout": "Checkout · {price}",
+  "@cartCheckout": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "cartRemoved": "{name} removed",
+  "@cartRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cartPromoHint": "Promo code",
+  "cartPromoUnknown": "Unknown code. Try SALE10",
+  "cartPromoApplied": "{code} applied",
+  "@cartPromoApplied": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "cartPromoOff": "{percent}% off your items",
+  "@cartPromoOff": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "cartPromoRemove": "Remove code",
+  "cartSubtotal": "{count, plural, =1{Subtotal (1 item)} other{Subtotal ({count} items)}}",
+  "@cartSubtotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cartDiscount": "Discount",
+  "cartDelivery": "Delivery",
+  "cartFreeDeliveryHint": "Add {amount} more for free delivery",
+  "@cartFreeDeliveryHint": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutTitle": "Checkout",
+  "checkoutAddress": "Delivery address",
+  "checkoutPhone": "Phone",
+  "checkoutPhoneHint": "+998 90 123 45 67",
+  "checkoutCity": "City",
+  "checkoutDefaultCity": "Tashkent",
+  "checkoutStreet": "Street, house, apartment",
+  "checkoutDeliveryTitle": "Delivery",
+  "checkoutStandardFree": "Standard · Free",
+  "checkoutStandardPrice": "Standard · {price}",
+  "@checkoutStandardPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutExpress": "Express · +{price}",
+  "@checkoutExpress": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutPayment": "Payment",
+  "checkoutCash": "Cash",
+  "checkoutCard": "Card on delivery",
+  "checkoutPayNote": "You pay when the order arrives. No payment is taken in the app.",
+  "checkoutSummary": "Summary",
+  "checkoutPlace": "Place order · {price}",
+  "@checkoutPlace": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutLocation": "Delivery point",
+  "checkoutPickOnMap": "Choose on map",
+  "checkoutChangeLocation": "Change",
+  "checkoutLocationHint": "Mark your entrance on the map so the courier finds you faster.",
+  "paymentCashOnDelivery": "Cash on delivery",
+  "paymentCardOnDelivery": "Card on delivery",
+  "deliveryStandard": "Standard",
+  "deliveryExpress": "Express",
+  "successTitle": "Order placed!",
+  "successText": "Order {number} · {total}\nYou can follow it in Profile → My orders.",
+  "@successText": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "successContinue": "Continue shopping",
+  "ordersTitle": "My orders",
+  "ordersEmpty": "No orders yet",
+  "ordersEmptyText": "Your placed orders will show up here.",
+  "ordersNumber": "Order {number}",
+  "@ordersNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersItems": "{count, plural, =1{1 item} other{{count} items}}",
+  "@ordersItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ordersPayment": "Payment",
+  "ordersCancel": "Cancel order",
+  "ordersCancelTitle": "Cancel this order?",
+  "ordersCancelText": "Order {number} will be cancelled.",
+  "@ordersCancelText": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersKeep": "Keep order",
+  "ordersOnMap": "Delivery point marked on the map",
+  "statusProcessing": "Processing",
+  "statusShipped": "Shipped",
+  "statusDelivered": "Delivered",
+  "statusCancelled": "Cancelled",
+  "profileTitle": "Profile",
+  "profileOrders": "Orders",
+  "profileFavorites": "Favorites",
+  "profileFurnish": "Furnish a room from a photo",
+  "profileMyOrders": "My orders",
+  "profileAbout": "About this app",
+  "profileAboutText": "Photos: Unsplash. Room analysis: Google Gemini. Maps: © OpenStreetMap contributors.",
+  "profileTheme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "profileLanguage": "Language",
+  "languageSystem": "Phone",
+  "profileSignOut": "Sign out",
+  "profileSignOutTitle": "Sign out?",
+  "profileSignOutText": "Your cart, favorites and orders stay in your account.",
+  "roomTitle": "Furnish your room",
+  "roomStartOver": "Start over",
+  "roomIntroTitle": "Photo in, furniture set out",
+  "roomIntroText": "We read the style, colours and size of your room and pick furniture that belongs there.",
+  "roomTakePhoto": "Take a photo",
+  "roomGallery": "Choose from gallery",
+  "roomTips": "For the best result",
+  "roomTipCorner": "Stand in a corner and show the whole room",
+  "roomTipLight": "Use daylight and keep the photo sharp",
+  "roomTipDoor": "Include a door or window: it helps estimate the size",
+  "roomPrivacy": "Your photo is sent to Google Gemini through Firebase to read the room. It is not saved in your account.",
+  "roomReading": "Reading your room…",
+  "roomReadingText": "Looking at the style, colours and size. This takes a few seconds.",
+  "roomFailed": "Could not read the room",
+  "roomAnotherPhoto": "Choose another photo",
+  "roomYourRoom": "Your room",
+  "roomType": "Room",
+  "roomStyle": "Style",
+  "roomColours": "Colours",
+  "roomSize": "Room size",
+  "roomWidth": "Width",
+  "roomLength": "Length",
+  "roomDecrease": "Decrease {label}",
+  "@roomDecrease": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "roomIncrease": "Increase {label}",
+  "@roomIncrease": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "roomSizeHigh": "Size confirmed.",
+  "roomSizeMedium": "Size is estimated from the photo. Adjust it if you know better.",
+  "roomSizeLow": "Size is a rough guess from the photo. Please set the real size.",
+  "roomSetTitle": "Your furniture set",
+  "roomSetFor": "Picked for: {room} · {style} · {size}",
+  "@roomSetFor": {
+    "placeholders": {
+      "room": {
+        "type": "String"
+      },
+      "style": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "roomNothingFits": "Nothing fits yet",
+  "roomNothingFitsText": "No product in the catalog fits this room size. Check the room size above.",
+  "roomSlotUnfilled": "Nothing in the catalog fits here: {slot}",
+  "@roomSlotUnfilled": {
+    "placeholders": {
+      "slot": {
+        "type": "String"
+      }
+    }
+  },
+  "roomFloorCrowded": "Furniture covers {percent}% of the floor: the room may feel crowded.",
+  "@roomFloorCrowded": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "roomFloorOk": "Furniture covers {percent}% of the floor: plenty of space to move.",
+  "@roomFloorOk": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "roomSetTotal": "Set total",
+  "roomAddAll": "Add all to cart",
+  "roomPiecesAdded": "{count, plural, =1{1 piece added to your cart} other{{count} pieces added to your cart}}",
+  "@roomPiecesAdded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "roomOtherOptions": "Other options",
+  "roomQuantityPrice": "{quantity} × {price} = {total}",
+  "@roomQuantityPrice": {
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "roomTypeLiving": "Living room",
+  "roomTypeBedroom": "Bedroom",
+  "roomTypeDining": "Dining room",
+  "roomTypeOffice": "Home office",
+  "styleModern": "Modern",
+  "styleScandinavian": "Scandinavian",
+  "styleMinimalist": "Minimalist",
+  "styleClassic": "Classic",
+  "styleIndustrial": "Industrial",
+  "styleRustic": "Rustic",
+  "styleMidCentury": "Mid-century",
+  "slotSofa": "Sofa",
+  "slotArmchair": "Armchair",
+  "slotCoffeeTable": "Coffee table",
+  "slotLighting": "Lighting",
+  "slotStorage": "Storage",
+  "slotBed": "Bed",
+  "slotReadingChair": "Reading chair",
+  "slotDiningTable": "Dining table",
+  "slotDiningChairs": "Dining chairs",
+  "slotDesk": "Desk",
+  "slotDeskChair": "Chair",
+  "slotShelving": "Shelving",
+  "reasonSameStyle": "Matches your {style} style",
+  "@reasonSameStyle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonSecondaryStyle": "Fits the {style} touch of your room",
+  "@reasonSecondaryStyle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonRelatedStyle": "Pairs well with {style} interiors",
+  "@reasonRelatedStyle": {
+    "placeholders": {
+      "style": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonColor": "{color} goes with your {tones} tones",
+  "@reasonColor": {
+    "placeholders": {
+      "color": {
+        "type": "String"
+      },
+      "tones": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonColorPlain": "{color} suits the room colours",
+  "@reasonColorPlain": {
+    "placeholders": {
+      "color": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonSize": "{width} cm wide, about {percent}% of the floor",
+  "@reasonSize": {
+    "placeholders": {
+      "width": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonNoFloor": "Takes no floor space",
+  "reasonTonesJoin": "{first} and {second}",
+  "@reasonTonesJoin": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "locationTitle": "Delivery point",
+  "locationMyPosition": "My location",
+  "locationConfirm": "Deliver here",
+  "locationFinding": "Finding the address…",
+  "locationMoveHint": "Move the map to put the pin on your entrance",
+  "locationNoAddress": "No address here, but you can still use this point."
+}

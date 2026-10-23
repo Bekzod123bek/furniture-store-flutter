@@ -43,3 +43,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Admin scripts
+tool/node_modules/
+service-account*.json
+*-firebase-adminsdk-*.json

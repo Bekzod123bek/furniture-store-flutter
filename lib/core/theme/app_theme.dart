@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:furniture_store/core/theme/app_colors.dart';
 
 class AppTheme {
   const AppTheme._();
-
-  static const seed = Color(0xFF8B5E3C);
 
   static ThemeData light() => _build(Brightness.light);
   static ThemeData dark() => _build(Brightness.dark);
@@ -11,7 +10,7 @@ class AppTheme {
   static ThemeData _build(Brightness brightness) {
     final isDark = brightness == Brightness.dark;
     final scheme = ColorScheme.fromSeed(
-      seedColor: seed,
+      seedColor: AppColors.brand,
       brightness: brightness,
       surface: isDark ? const Color(0xFF16130F) : const Color(0xFFF8F5F1),
     );

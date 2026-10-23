@@ -1,0 +1,9 @@
+{
+  "name": "furniture-store-tools",
+  "private": true,
+  "type": "module",
+  "description": "Admin scripts for the Furniture Store Firebase project",
+  "dependencies": {
+    "firebase-admin": "^13.0.0"
+  }
+}

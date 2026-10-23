@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103193619063",
+    "project_id": "furniture-store-bekzod",
+    "storage_bucket": "furniture-store-bekzod.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103193619063:android:e581da5acab1537a37f472",
+        "android_client_info": {
+          "package_name": "dev.bekzod.furniture_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtN5FbOovddvnjLT7wK-oQTvAuM5MVVOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import 'skeleton.dart';
+import 'package:furniture_store/core/widgets/skeleton.dart';
 
 /// Network image with a skeleton placeholder and an error fallback.
 class AppImage extends StatelessWidget {

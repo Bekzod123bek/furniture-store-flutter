@@ -1,0 +1,44 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "furniture-store-bekzod",
+          "appId": "1:103193619063:android:e581da5acab1537a37f472",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "furniture-store-bekzod",
+          "configurations": {
+            "android": "1:103193619063:android:e581da5acab1537a37f472",
+            "ios": "1:103193619063:ios:14612c2b8291ff7637f472",
+            "web": "1:103193619063:web:c9d27bedd6cd3c8b37f472"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "auth": {
+    "providers": {
+      "emailPassword": true
+    }
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": false
+    },
+    "singleProjectMode": true
+  }
+}

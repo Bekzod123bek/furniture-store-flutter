@@ -1,0 +1,1361 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Emerald Velvet Sofa",
+      "category": "sofa",
+      "price": 899,
+      "rating": 4.8,
+      "reviewCount": 214,
+      "popularity": 98,
+      "isNew": false,
+      "material": "Velvet",
+      "description": "A three-seat sofa in soft velvet with tapered walnut legs. Deep seat cushions with high-resilience foam keep their shape for years.",
+      "widthCm": 214,
+      "depthCm": 92,
+      "heightCm": 84,
+      "floorStanding": true,
+      "styles": [
+        "midCentury",
+        "modern"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=900&q=80",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=900&q=80",
+        "https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Emerald",
+          "argb": 4280245838
+        },
+        {
+          "name": "Navy",
+          "argb": 4280430666
+        },
+        {
+          "name": "Rose",
+          "argb": 4291399310
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        }
+      ],
+      "oldPrice": 1099
+    },
+    {
+      "id": "p2",
+      "name": "Cognac Leather Sofa",
+      "category": "sofa",
+      "price": 1450,
+      "rating": 4.9,
+      "reviewCount": 168,
+      "popularity": 95,
+      "isNew": false,
+      "material": "Leather",
+      "description": "Mid-century sofa in full-grain leather that develops a rich patina over time. Solid wood frame and pocket-spring seat.",
+      "widthCm": 228,
+      "depthCm": 95,
+      "heightCm": 82,
+      "floorStanding": true,
+      "styles": [
+        "midCentury",
+        "classic",
+        "industrial"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=900&q=80",
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=900&q=80",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Cognac",
+          "argb": 4288700463
+        },
+        {
+          "name": "Black",
+          "argb": 4280229663
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Chester Tufted Sofa",
+      "category": "sofa",
+      "price": 760,
+      "rating": 4.5,
+      "reviewCount": 96,
+      "popularity": 80,
+      "isNew": false,
+      "material": "Fabric",
+      "description": "Classic button-tufted backrest with a modern, slim silhouette. Removable covers that can be washed at 30°C.",
+      "widthCm": 200,
+      "depthCm": 88,
+      "heightCm": 80,
+      "floorStanding": true,
+      "styles": [
+        "classic"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=900&q=80",
+        "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Sand",
+          "argb": 4292395941
+        },
+        {
+          "name": "Graphite",
+          "argb": 4282203453
+        },
+        {
+          "name": "Ivory",
+          "argb": 4294110692
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Sky Blue Sofa",
+      "category": "sofa",
+      "price": 690,
+      "rating": 4.6,
+      "reviewCount": 74,
+      "popularity": 76,
+      "isNew": true,
+      "material": "Fabric",
+      "description": "Compact two-and-a-half seat sofa that fits small apartments. Soft woven fabric in a calm blue tone.",
+      "widthCm": 190,
+      "depthCm": 86,
+      "heightCm": 82,
+      "floorStanding": true,
+      "styles": [
+        "scandinavian",
+        "modern",
+        "minimalist"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=900&q=80",
+        "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Sky",
+          "argb": 4288525519
+        },
+        {
+          "name": "Sand",
+          "argb": 4292395941
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        },
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        }
+      ],
+      "oldPrice": 820
+    },
+    {
+      "id": "p5",
+      "name": "Coral Loveseat",
+      "category": "sofa",
+      "price": 540,
+      "rating": 4.4,
+      "reviewCount": 41,
+      "popularity": 70,
+      "isNew": true,
+      "material": "Velvet",
+      "description": "A playful two-seater in coral velvet. Light enough to move around and comfortable enough for a long movie night.",
+      "widthCm": 150,
+      "depthCm": 84,
+      "heightCm": 80,
+      "floorStanding": true,
+      "styles": [
+        "modern",
+        "midCentury"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=900&q=80",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Coral",
+          "argb": 4291843630
+        },
+        {
+          "name": "Mustard",
+          "argb": 4292453934
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        },
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "name": "Sunny Wingback Armchair",
+      "category": "armchair",
+      "price": 380,
+      "rating": 4.7,
+      "reviewCount": 132,
+      "popularity": 90,
+      "isNew": false,
+      "material": "Fabric",
+      "description": "Wingback armchair with a high back for reading corners. Bright yellow fabric and oiled beech legs.",
+      "widthCm": 78,
+      "depthCm": 80,
+      "heightCm": 98,
+      "floorStanding": true,
+      "styles": [
+        "classic",
+        "midCentury"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1550226891-ef816aed4a98?w=900&q=80",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Sunflower",
+          "argb": 4293112380
+        },
+        {
+          "name": "Olive",
+          "argb": 4285233722
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        }
+      ],
+      "oldPrice": 450
+    },
+    {
+      "id": "p7",
+      "name": "Cloud Tufted Chair",
+      "category": "armchair",
+      "price": 310,
+      "rating": 4.3,
+      "reviewCount": 58,
+      "popularity": 60,
+      "isNew": false,
+      "material": "Fabric",
+      "description": "Small tufted armchair with turned white legs. A soft accent for a bedroom or a dressing area.",
+      "widthCm": 66,
+      "depthCm": 64,
+      "heightCm": 82,
+      "floorStanding": true,
+      "styles": [
+        "classic",
+        "scandinavian"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=900&q=80",
+        "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Sand",
+          "argb": 4292395941
+        },
+        {
+          "name": "Graphite",
+          "argb": 4282203453
+        },
+        {
+          "name": "Ivory",
+          "argb": 4294110692
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "name": "Shell Chair",
+      "category": "chair",
+      "price": 120,
+      "rating": 4.6,
+      "reviewCount": 305,
+      "popularity": 92,
+      "isNew": false,
+      "material": "Plastic",
+      "description": "Moulded shell seat with a padded cushion and beech legs. Stackable and easy to clean.",
+      "widthCm": 47,
+      "depthCm": 53,
+      "heightCm": 82,
+      "floorStanding": true,
+      "styles": [
+        "modern",
+        "scandinavian",
+        "minimalist"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=900&q=80",
+        "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "argb": 4280229663
+        },
+        {
+          "name": "Brass",
+          "argb": 4290286170
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "name": "Nordic Dining Chair",
+      "category": "chair",
+      "price": 165,
+      "rating": 4.5,
+      "reviewCount": 87,
+      "popularity": 72,
+      "isNew": false,
+      "material": "Oak",
+      "description": "Upholstered seat on a solid oak frame. Pairs well with the Oak Dining Table.",
+      "widthCm": 50,
+      "depthCm": 55,
+      "heightCm": 88,
+      "floorStanding": true,
+      "styles": [
+        "scandinavian",
+        "minimalist",
+        "rustic"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=900&q=80",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Sand",
+          "argb": 4292395941
+        },
+        {
+          "name": "Graphite",
+          "argb": 4282203453
+        },
+        {
+          "name": "Ivory",
+          "argb": 4294110692
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        },
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        }
+      ],
+      "oldPrice": 199
+    },
+    {
+      "id": "p10",
+      "name": "Birch Bar Stool",
+      "category": "chair",
+      "price": 75,
+      "rating": 4.2,
+      "reviewCount": 39,
+      "popularity": 50,
+      "isNew": false,
+      "material": "Wood",
+      "description": "Light birch stool for a kitchen island or a breakfast bar.",
+      "widthCm": 40,
+      "depthCm": 40,
+      "heightCm": 75,
+      "floorStanding": true,
+      "styles": [
+        "scandinavian",
+        "minimalist"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1503602642458-232111445657?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        },
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "name": "Rustic Wooden Chair",
+      "category": "chair",
+      "price": 95,
+      "rating": 4.1,
+      "reviewCount": 22,
+      "popularity": 40,
+      "isNew": false,
+      "material": "Wood",
+      "description": "Hand-finished wooden chair with a woven cane seat.",
+      "widthCm": 44,
+      "depthCm": 48,
+      "heightCm": 90,
+      "floorStanding": true,
+      "styles": [
+        "rustic",
+        "classic"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "name": "Round Café Table",
+      "category": "table",
+      "price": 280,
+      "rating": 4.6,
+      "reviewCount": 64,
+      "popularity": 74,
+      "isNew": false,
+      "material": "Wood",
+      "description": "Round table with a white top and beech legs. Seats four people.",
+      "widthCm": 90,
+      "depthCm": 90,
+      "heightCm": 74,
+      "floorStanding": true,
+      "styles": [
+        "scandinavian",
+        "modern",
+        "midCentury"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?w=900&q=80",
+        "https://images.unsplash.com/photo-1554295405-abb8fd54f153?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        }
+      ],
+      "oldPrice": 340
+    },
+    {
+      "id": "p13",
+      "name": "Oak Dining Table",
+      "category": "table",
+      "price": 640,
+      "rating": 4.8,
+      "reviewCount": 118,
+      "popularity": 88,
+      "isNew": false,
+      "material": "Oak",
+      "description": "Solid oak dining table for six with a natural oil finish.",
+      "widthCm": 180,
+      "depthCm": 90,
+      "heightCm": 75,
+      "floorStanding": true,
+      "styles": [
+        "scandinavian",
+        "rustic",
+        "classic"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1577140917170-285929fb55b7?w=900&q=80",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "name": "Studio Work Desk",
+      "category": "table",
+      "price": 420,
+      "rating": 4.7,
+      "reviewCount": 53,
+      "popularity": 78,
+      "isNew": true,
+      "material": "Oak",
+      "description": "Minimal desk with a hidden cable tray and a leather pen holder.",
+      "widthCm": 140,
+      "depthCm": 65,
+      "heightCm": 75,
+      "floorStanding": true,
+      "styles": [
+        "minimalist",
+        "modern",
+        "scandinavian"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        },
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "name": "Live Edge Side Table",
+      "category": "table",
+      "price": 130,
+      "rating": 4.4,
+      "reviewCount": 31,
+      "popularity": 55,
+      "isNew": false,
+      "material": "Wood",
+      "description": "Side table carved from a single piece of reclaimed wood.",
+      "widthCm": 50,
+      "depthCm": 35,
+      "heightCm": 55,
+      "floorStanding": true,
+      "styles": [
+        "rustic",
+        "industrial"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        },
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "name": "Royal Tufted Bed",
+      "category": "bed",
+      "price": 1280,
+      "rating": 4.8,
+      "reviewCount": 142,
+      "popularity": 89,
+      "isNew": false,
+      "material": "Velvet",
+      "description": "King size bed with a tall tufted headboard and a sturdy slatted base. Mattress not included.",
+      "widthCm": 180,
+      "depthCm": 200,
+      "heightCm": 120,
+      "floorStanding": true,
+      "styles": [
+        "classic"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=900&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Sand",
+          "argb": 4292395941
+        },
+        {
+          "name": "Graphite",
+          "argb": 4282203453
+        },
+        {
+          "name": "Ivory",
+          "argb": 4294110692
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        }
+      ],
+      "oldPrice": 1490
+    },
+    {
+      "id": "p17",
+      "name": "Linen Platform Bed",
+      "category": "bed",
+      "price": 980,
+      "rating": 4.6,
+      "reviewCount": 77,
+      "popularity": 71,
+      "isNew": false,
+      "material": "Linen",
+      "description": "Low platform bed upholstered in washed linen with a padded headboard.",
+      "widthCm": 160,
+      "depthCm": 200,
+      "heightCm": 90,
+      "floorStanding": true,
+      "styles": [
+        "minimalist",
+        "scandinavian",
+        "modern"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=900&q=80",
+        "https://images.unsplash.com/photo-1616627561950-9f746e330187?w=900&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Sand",
+          "argb": 4292395941
+        },
+        {
+          "name": "Graphite",
+          "argb": 4282203453
+        },
+        {
+          "name": "Ivory",
+          "argb": 4294110692
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "name": "Industrial Floor Lamp",
+      "category": "lamp",
+      "price": 145,
+      "rating": 4.5,
+      "reviewCount": 98,
+      "popularity": 69,
+      "isNew": false,
+      "material": "Metal",
+      "description": "Adjustable floor lamp with a large matte shade. E27 bulb.",
+      "widthCm": 40,
+      "depthCm": 40,
+      "heightCm": 176,
+      "floorStanding": true,
+      "styles": [
+        "industrial",
+        "modern"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=900&q=80",
+        "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "argb": 4280229663
+        },
+        {
+          "name": "Brass",
+          "argb": 4290286170
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "name": "Dome Pendant Lamp",
+      "category": "lamp",
+      "price": 89,
+      "rating": 4.4,
+      "reviewCount": 45,
+      "popularity": 58,
+      "isNew": false,
+      "material": "Metal",
+      "description": "Simple dome pendant for dining tables and kitchen islands.",
+      "widthCm": 35,
+      "depthCm": 35,
+      "heightCm": 25,
+      "floorStanding": false,
+      "styles": [
+        "industrial",
+        "midCentury",
+        "modern"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "argb": 4280229663
+        },
+        {
+          "name": "Brass",
+          "argb": 4290286170
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        },
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        }
+      ],
+      "oldPrice": 110
+    },
+    {
+      "id": "p20",
+      "name": "Orb Desk Lamp",
+      "category": "lamp",
+      "price": 65,
+      "rating": 4.3,
+      "reviewCount": 27,
+      "popularity": 45,
+      "isNew": true,
+      "material": "Metal",
+      "description": "Warm dimmable desk lamp with a soft opal glass orb.",
+      "widthCm": 18,
+      "depthCm": 18,
+      "heightCm": 42,
+      "floorStanding": false,
+      "styles": [
+        "modern",
+        "minimalist",
+        "midCentury"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1543198126-a8ad8e47fb22?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "argb": 4280229663
+        },
+        {
+          "name": "Brass",
+          "argb": 4290286170
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        },
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "name": "Floating Wall Shelves",
+      "category": "storage",
+      "price": 210,
+      "rating": 4.5,
+      "reviewCount": 61,
+      "popularity": 63,
+      "isNew": false,
+      "material": "Wood",
+      "description": "Wall-mounted shelf set with hidden brackets.",
+      "widthCm": 80,
+      "depthCm": 20,
+      "heightCm": 60,
+      "floorStanding": false,
+      "styles": [
+        "minimalist",
+        "modern",
+        "scandinavian"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Dilnoza R.",
+          "rating": 5,
+          "comment": "Looks even better than in the photos. Delivery was on time.",
+          "date": "2026-09-12"
+        },
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "name": "Oak Shelving Unit",
+      "category": "storage",
+      "price": 340,
+      "rating": 4.6,
+      "reviewCount": 49,
+      "popularity": 61,
+      "isNew": false,
+      "material": "Oak",
+      "description": "Tall open shelving for books, plants and baskets.",
+      "widthCm": 60,
+      "depthCm": 35,
+      "heightCm": 190,
+      "floorStanding": true,
+      "styles": [
+        "scandinavian",
+        "rustic",
+        "minimalist"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Jasur T.",
+          "rating": 4,
+          "comment": "Good quality for the price. Assembly took about 30 minutes.",
+          "date": "2026-08-28"
+        },
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "name": "Walnut Wardrobe",
+      "category": "storage",
+      "price": 890,
+      "rating": 4.7,
+      "reviewCount": 36,
+      "popularity": 66,
+      "isNew": false,
+      "material": "Wood",
+      "description": "Two-door wardrobe with a hanging rail and two shelves.",
+      "widthCm": 120,
+      "depthCm": 60,
+      "heightCm": 210,
+      "floorStanding": true,
+      "styles": [
+        "midCentury",
+        "classic",
+        "modern"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=900&q=80"
+      ],
+      "colors": [
+        {
+          "name": "Natural oak",
+          "argb": 4291338874
+        },
+        {
+          "name": "Walnut",
+          "argb": 4284301367
+        },
+        {
+          "name": "White",
+          "argb": 4294309365
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Madina K.",
+          "rating": 5,
+          "comment": "Very comfortable and the colour matches our living room.",
+          "date": "2026-08-03"
+        },
+        {
+          "author": "Aziz N.",
+          "rating": 4,
+          "comment": "Solid build. Would like a few more colour options.",
+          "date": "2026-07-19"
+        },
+        {
+          "author": "Kamola S.",
+          "rating": 3,
+          "comment": "Nice design, but the box arrived slightly damaged.",
+          "date": "2026-07-02"
+        }
+      ],
+      "oldPrice": 990
+    }
+  ],
+  "banners": [
+    {
+      "id": "b1",
+      "title": "Autumn Sale",
+      "subtitle": "Up to 20% off sofas",
+      "image": "https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=900&q=80",
+      "category": "sofa",
+      "order": 0
+    },
+    {
+      "id": "b2",
+      "title": "New Lounge Pieces",
+      "subtitle": "Fresh chairs for cosy corners",
+      "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=900&q=80",
+      "category": "armchair",
+      "order": 1
+    },
+    {
+      "id": "b3",
+      "title": "Dining Room Edit",
+      "subtitle": "Tables made from solid oak",
+      "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=900&q=80",
+      "category": "table",
+      "order": 2
+    }
+  ]
+}

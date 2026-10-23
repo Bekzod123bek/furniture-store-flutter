@@ -1,0 +1,27 @@
+{
+  "isRoom": true,
+  "roomType": "livingRoom",
+  "style": "scandinavian",
+  "palette": [
+    {
+      "name": "white",
+      "hex": "#FFFFFF",
+      "share": 0.5
+    },
+    {
+      "name": "beige",
+      "hex": "#F5F5DC",
+      "share": 0.3
+    },
+    {
+      "name": "pale oak",
+      "hex": "#D2B48C",
+      "share": 0.2
+    }
+  ],
+  "widthMeters": 3.6,
+  "lengthMeters": 4.5,
+  "sizeConfidence": "medium",
+  "secondaryStyle": "minimalist",
+  "summary": "A bright scandinavian living room featuring white walls, pale oak herringbone flooring, and a beige linen sofa."
+}

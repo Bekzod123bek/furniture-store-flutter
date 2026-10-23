@@ -1,0 +1,66 @@
+rules_version = '2';
+
+// Data model
+//   products/{id}                    public catalog, read-only for clients
+//   banners/{id}                     public promo banners, read-only for clients
+//   users/{uid}                      profile, owner only
+//   users/{uid}/state/cart           cart lines + promo code, owner only
+//   users/{uid}/state/favorites      favorite product ids, owner only
+//   users/{uid}/orders/{orderId}     placed orders: owner can read, create and cancel
+//
+// Catalog data is written with the Admin SDK (tool/seed_firestore.mjs), which
+// bypasses these rules.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /banners/{bannerId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /users/{uid} {
+      allow read, write: if isOwner(uid);
+
+      match /state/{docId} {
+        allow read, write: if isOwner(uid);
+      }
+
+      // Orders are immutable once placed. Prices are sent by the client, so a
+      // production shop must create orders in a Cloud Function that
+      // recalculates the totals from the catalog.
+      match /orders/{orderId} {
+        allow read: if isOwner(uid);
+        allow create: if isOwner(uid)
+          && request.resource.data.keys().hasAll([
+            'lines', 'subtotal', 'discount', 'delivery', 'total',
+            'address', 'paymentMethod', 'createdAt'
+          ])
+          && request.resource.data.lines is list
+          && request.resource.data.lines.size() > 0
+          && request.resource.data.lines.size() <= 50
+          && request.resource.data.total is int
+          && request.resource.data.total >= 0
+          && request.resource.data.createdAt == request.time;
+        // The owner may only cancel an order that is still being processed.
+        allow update: if isOwner(uid)
+          && resource.data.status == 'processing'
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status'])
+          && request.resource.data.status == 'cancelled';
+        allow delete: if false;
+      }
+    }
+  }
+}
